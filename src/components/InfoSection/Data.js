@@ -9,7 +9,7 @@ export const homeObjOne = {
    buttonLabel: 'Lorem ipsum ',
    imgStart: true,
    img: require('../../images/image1.svg'),
-   alt: 'Car', 
+   alt: '...', 
    dark: true,
    primary: true,
    darkText: false,
