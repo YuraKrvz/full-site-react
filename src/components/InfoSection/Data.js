@@ -1,0 +1,51 @@
+export const homeObjOne = {
+   id: 'about',
+   lightBg: false,
+   lightText: true,
+   lightTextDesc: true,
+   topLine: 'Lorem ipsum',
+   headLine: 'Lorem ipsum Lorem ipsumLorem ipsum',
+   description: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
+   buttonLabel: 'Lorem ipsum ',
+   imgStart: true,
+   img: require('../../images/image1.svg'),
+   alt: 'Car', 
+   dark: true,
+   primary: true,
+   darkText: false,
+
+}
+export const homeObjTwo = {
+   id: 'discover',
+   lightBg: true,
+   lightText: false,
+   lightTextDesc: false,
+   topLine: 'Lorem ipsum ',
+   headLine: 'Lorem ipsum Lorem ipsum Lorem ipsum ',
+   description: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
+   buttonLabel: 'Lorem ipsum ',
+   imgStart: false,
+   img: require('../../images/image2.svg'),
+   alt: '...', 
+   dark: false,
+   primary: false,
+   darkText: true,
+
+}
+export const homeObjThree = {
+   id: 'signup',
+   lightBg: false,
+   lightText: true,
+   lightTextDesc: true,
+   topLine: 'Sign up and using',
+   headLine: 'Your data is confidential',
+   description: 'Exclusive use of the new Internet network. Start today...',
+   buttonLabel: 'Sign Up',
+   imgStart: true,
+   img: require('../../images/image3.svg'),
+   alt: '...', 
+   dark: true,
+   primary: true,
+   darkText: false,
+
+}
